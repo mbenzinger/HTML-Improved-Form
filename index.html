@@ -120,7 +120,7 @@
                 <div>
                     <input type="checkbox" id="sauna" name="extras" value="Sauna Access" checked> 
                     <label for="sauna">Sauna Access</label>
-                </div>[5]
+                </div>
                 <div>
                     <input type="checkbox" id="hottub" name="extras" value="Hot Tub"> 
                     <label for="hottub">In-Room Hot Tub</label>
@@ -134,8 +134,10 @@
                     <label for="drinks">All-inclusive Drinks Package</label>
                 </div>
             </fieldset>
-            
-            <input type="submit" value="Enter the Contest!">
+            <label for="password">Password<span class="required-field">*</span></label>
+            <input type="password" title="6 Alphanumeric Character Passcode"  pattern="[0-9a-zA-Z]{6}"   required>
+
+              <input type="submit" value="Enter the Contest!">
         </form>
     </main>
     <footer>
